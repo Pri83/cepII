@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+
+
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+
+body{
+    font-family: 'Open Sans'; 
+    height: 100 vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #007bff, #0056b3);
+}
+
+
+form{
+    width: 30%;
+    margin:  0 auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 16 px;
+    box-shadow: 0 0 16px rgba (0,0,0,1);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 4 px 4px 8px rgba(0,0,0,0.5);
+}
+
+
+buttom{
+    background-color: #007bff;
+    color: white;
+    border: none;   
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 150px;
+    margin-bottom: 16px;
+}
+
+buttom:hover{
+    background-color: #ccc;
+    color: #007bff;
+}
+
+
+input[type="text"], select{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+#resultadoCep{
+    margin: 16px;
+    color: red;
+}
